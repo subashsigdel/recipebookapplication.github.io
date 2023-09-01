@@ -1,2 +1,2 @@
-# ReceipeBookApplication
+# RecipeBookApplication
 college project (WebTechnology)

@@ -1,0 +1,66 @@
+.grid{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+}
+.disone{
+    width: 50vh;
+    border: 9px solid rgb(2, 255, 158);
+    background-color: aqua;
+    border-radius: 30px;
+    height:30vh;
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+.distwo{
+    width: 50vh;
+    border: 9px solid rgb(2, 255, 158);
+    background-color: aqua;
+    border-radius: 30px;
+    height:20vh;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+.secondgrid{
+   width: fit-content;
+}
+.secondgrid img{
+    background-position: center;
+    width:60vh;
+    background-size: cover;
+    height: 100vh;
+}
+
+.introone{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.eat{
+    width: 30vh;
+    margin-top: 5rem;
+    height:5vh;
+    text-align: center;
+    color: blueviolet;
+    padding: 5px;
+
+}
+.sleep{
+    width: 50vh;
+    margin-top: 9rem;
+    height:5vh;
+    text-align: center;
+    color: rgb(217, 255, 0);
+    padding: 5px;
+}
+.repeat{
+    width: 15vh;
+    margin-top: 10rem;
+    height:5vh;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    padding: 5px;
+}
+

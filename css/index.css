@@ -1,17 +1,18 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+.subcontainers{
+    height: 100vh;
 }
-
-html,
-body {
-
-  height: 100vh;
-  background-color: black;
-  background-image: url("../images/home.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+#page1{
+    background-color: black;
+}
+#page2{
+    background-color: rgb(255, 255, 255);
+}
+#page3{
+    background-color: rgb(0, 0, 0);
 }

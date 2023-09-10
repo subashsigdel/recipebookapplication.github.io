@@ -1,0 +1,162 @@
+/* Styling for the page */
+  /* .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 150px 5%;
+  } */
+  .gridpage2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  .right-column {
+    width: 65%;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for list of recipes */
+  #recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  #no-recipes {
+      display: flex;
+      background-color: #FFCCCC;
+      padding: 20px;
+      border-radius: 8px;	
+      margin-top: 44px;
+  }
+  
+  /* styling for single recipe div */
+  .recipe {
+    border: 1px solid #00ffd5;
+    /* padding: 10px; */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+  }
+  
+  .recipe h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-radius: 0.2rem;
+    color: #c82333;
+    font-size: 2rem;
+    height: fit-content;
+    width: 18.7rem;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(233, 205, 47);
+  }
+  
+  .recipe ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .recipe ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Delete button styling */
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 8rem;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Search label styling */
+  label[for="search-box"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* .list{
+    display: flex;
+    justify-content: right;
+
+  } */
+
+  .headinglist{
+    text-align: center;
+    color: #ee2337;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  /* recipe list grid */
+  .prereceipe{
+    height: 100vh;
+    /* background-color: #dc3545; */
+    overflow-y: scroll;
+
+  }
+.gridreceipe{
+    grid-template-rows:50% 50%;
+}
+
+
+.receipeimage{
+    border-radius: 6rem;
+    border: 0.3rem solid aqua;
+    height: 20rem;
+    width: 20rem;
+}
+
+.realrecipe{
+    display: grid;
+    grid-template-rows: 15% 85%;
+    border-radius: 2rem;
+    border: 0.3rem solid rgb(8, 255, 181);
+    height: 20rem;
+    width: 28rem;
+    overflow: hidden;
+
+
+}
+
+.imagegrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.receipeSecond{
+    padding-top: 3rem;
+}
+.recipehead{
+   color: #c82333;
+   font-size: 2rem;
+   height: fit-content;
+   width: 30rem;
+   text-align: center;
+   background-color: rgb(233, 205, 47);
+    
+}
+.mainrece{
+    overflow-y: scroll;  
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    
+}

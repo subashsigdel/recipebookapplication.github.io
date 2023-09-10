@@ -1,66 +1,48 @@
-.grid{
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+.grids{
     display: grid;
-    grid-template-columns:auto auto auto auto;
+    grid-template-columns: 50% 50%;
 }
-.disone{
-    width: 50vh;
-    border: 9px solid rgb(2, 255, 158);
-    background-color: aqua;
-    border-radius: 30px;
-    height:30vh;
-    text-align: center;
-    margin-top: 10rem;
-    margin-left: 3rem;
-}
-.distwo{
-    width: 50vh;
-    border: 9px solid rgb(2, 255, 158);
-    background-color: aqua;
-    border-radius: 30px;
-    height:20vh;
-    text-align: center;
-    margin-top: 5rem;
 
-}
-.secondgrid{
-   width: fit-content;
-}
-.secondgrid img{
-    background-position: center;
-    width:60vh;
-    background-size: cover;
+.welcome{
     height: 100vh;
 }
-
-.introone{
-    font-size: 1.1rem;
-    font-weight: bolder;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.manimage{
+    height: 100vh;
 }
-
-.eat{
-    width: 30vh;
-    margin-top: 5rem;
-    height:5vh;
+.green{
     text-align: center;
+    color: rgb(17, 255, 116);
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.receipe{
+    color: rgb(183, 0, 255);
+    font-size: 100px;
+    font-family: fantasy;
+    text-align: center;
+}
+.for{
+    color: rgb(0, 38, 255);
+    font-size: 25px;
+    font-family:cursive;
+    text-align: center;
+}
+.center{
+    margin-top: 12rem;
+}
+.button{
     color: blueviolet;
-    padding: 5px;
-
+    margin-top: 4rem;
+    margin-left: 16rem;
+    background-color: rgb(18, 255, 164);
+    width: fit-content;
+    border: 1rem solid rgb(18, 255, 164);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: monospace;
+    
 }
-.sleep{
-    width: 50vh;
-    margin-top: 9rem;
-    height:5vh;
-    text-align: center;
-    color: rgb(217, 255, 0);
-    padding: 5px;
+.button a{
+    text-decoration: none;
 }
-.repeat{
-    width: 15vh;
-    margin-top: 10rem;
-    height:5vh;
-    text-align: center;
-    color: rgb(255, 0, 0);
-    padding: 5px;
-}
-

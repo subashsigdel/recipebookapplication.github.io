@@ -4,15 +4,25 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
   }
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
 .subcontainers{
     height: 100vh;
 }
 #page1{
-    background-color: black;
+    background-color: rgba(245, 245, 245, 0.87);
 }
 #page2{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.884);
 }
 #page3{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(245, 245, 245, 0.87);
 }

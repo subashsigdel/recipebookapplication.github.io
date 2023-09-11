@@ -16,20 +16,23 @@ function handleSubmit(event) {
   const nameInput = document.querySelector('#recipe-name');
   const ingrInput = document.querySelector('#recipe-ingredients');
   const methodInput = document.querySelector('#recipe-method');
+  const imageinput = document.querySelector('#receipe-image');
   const name = nameInput.value.trim();
   const ingredients = ingrInput.value.trim().split(',').map(i => i.trim());
   const method = methodInput.value.trim();
+  const image = imageinput.value.trim();
   
   // Check if recipe name, ingredients, and method are valid
   if (name && ingredients.length > 0 && method) {
     // Create new recipe object and add it to recipes array
-    const newRecipe = { name, ingredients, method };
+    const newRecipe = { name, ingredients, method,image};
     recipes.push(newRecipe);
     
     // Clear form inputs
     nameInput.value = '';
     ingrInput.value = '';
     methodInput.value = '';
+    imageinput.value = '';
     
     // Add new recipe to recipe list
     displayRecipes();
@@ -44,6 +47,7 @@ function displayRecipes() {
 	// Create div to display the individual recipe, for each recipe
     recipeDiv.innerHTML = `
       <h3>${recipe.name}</h3>
+      <img src=${recipe.image}>
       <p><strong>Ingredients:</strong></p>
       <ul>
         ${recipe.ingredients.map(ingr => `<li>${ingr}</li>`).join('')}
@@ -83,6 +87,7 @@ function search(query) {
     const recipeEl = document.createElement('div');
     recipeEl.innerHTML = `
       <h3>${recipe.name}</h3>
+      <img src=${recipe.image}>
       <p><strong>Ingredients:</strong></p>
       <ul>
         ${recipe.ingredients.map(ingr => `<li>${ingr}</li>`).join('')}

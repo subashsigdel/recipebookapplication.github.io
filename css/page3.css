@@ -22,20 +22,47 @@
   }
   
   input[type="text"], textarea {
+    color: rgb(212, 0, 255);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
     padding: 10px;
+    background-color: rgba(221, 219, 219, 0.863);
     margin-bottom: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 3px solid #00ffc8;
     width: 100%;
     box-sizing: border-box;
   }
   
   button[type="submit"] {
     padding: 10px;
-    background-color: #3338;
-    color: #fff;
+    background-color: rgba(6, 255, 243, 0.74);
+    color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 1rem;
   }
-  
+  .page3{
+    height: 100vh;
+    /* border:1rem solid violet ; */
+    background-color: rgba(221, 219, 219, 0.705);
+    background-image: url('../images/foodeating.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .Addrecipe{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: #a303ff;
+  }
+  .color{
+    color: #a303ff;
+    font-weight: bolder;
+  }
